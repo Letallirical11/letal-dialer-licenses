@@ -1,17 +1,37 @@
 {
     "DEMO2024": {
         "expiry": "2024-12-31",
-        "max_users": 5,
-        "company": "Empresa Demo"
+        "max_users": 10,
+        "days_valid": 30,
+        "users": {
+            "user1": "pass1",
+            "user2": "pass2", 
+            "user3": "pass3",
+            "user4": "pass4",
+            "user5": "pass5",
+            "user6": "pass6",
+            "user7": "pass7",
+            "user8": "pass8",
+            "user9": "pass9",
+            "user10": "pass10"
+        }
     },
-    "FULL2025": {
+    "ENTERPRISE2025": {
         "expiry": "2025-12-31",
         "max_users": 50,
-        "company": "Cliente Corporativo"
+        "days_valid": 365,
+        "users": {
+            "admin1": "adminpass1",
+            "admin2": "adminpass2"
+        }
     },
-    "chapito2024": {
-        "expiry": "2025-12-31",
-        "max_users": 50,
-        "company": "Cliente Corporativo"
+    "CUSTOM_LICENSE": {
+        "expiry": "2026-06-30",
+        "max_users": 20,
+        "days_valid": 180,
+        "users": {
+            "customuser1": "custompass1",
+            "customuser2": "custompass2"
+        }
     }
 }

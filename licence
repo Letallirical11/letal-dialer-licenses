@@ -1,0 +1,12 @@
+{
+    "DEMO2024": {
+        "expiry": "2024-12-31",
+        "max_users": 5,
+        "company": "Empresa Demo"
+    },
+    "FULL2025": {
+        "expiry": "2025-12-31",
+        "max_users": 50,
+        "company": "Cliente Corporativo"
+    }
+}
